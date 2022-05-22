@@ -3,7 +3,7 @@ variable "namespace" {
   type = string
 }
 
-variable "chart_repository" {
+variable "repository" {
   type = string
 }
 

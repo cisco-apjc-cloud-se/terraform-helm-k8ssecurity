@@ -18,7 +18,7 @@ resource "kubernetes_namespace" "sca" {
 resource "helm_release" "sca" {
  namespace   = kubernetes_namespace.sca.metadata[0].name
  name        = var.release_name
- repository  = var.chart_repository
+ repository  = var.repository
  chart       = try(var.chart_name, var.chart_url)  ## Repo & Url?
  version     = var.chart_version
 
