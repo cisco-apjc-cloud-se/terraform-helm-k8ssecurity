@@ -27,6 +27,7 @@ module "sca" {
 
   ### Helm Setttings ###
   repository    = local.sca.helm.repository
+  release_name  = local.sca.helm.release_name
   chart_name    = local.sca.helm.chart_name
   chart_version = local.sca.helm.chart_version
   chart_url     = local.sca.helm.chart_url
