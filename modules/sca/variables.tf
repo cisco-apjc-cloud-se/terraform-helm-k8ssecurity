@@ -3,6 +3,10 @@ variable "namespace" {
   type = string
 }
 
+variable "release_name" {
+  type = string
+}
+
 variable "repository" {
   type = string
 }
