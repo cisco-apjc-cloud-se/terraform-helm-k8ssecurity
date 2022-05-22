@@ -1,2 +1,2 @@
-# terraform-helm-security
-Terraform module for deploying Cisco Security services (Secure Cloud Analytics etc.) to target kubernetes cluster
+# terraform-helm-k8security
+Terraform module for deploying Cisco Kubernetes Security services (Secure Cloud Analytics etc.) to target kubernetes cluster
